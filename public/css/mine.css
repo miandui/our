@@ -1,0 +1,30 @@
+#wen div{
+	float: left;
+	font-style: normal;
+	font-size: 16px;
+}
+#wen {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	border-bottom: 1px solid #8e8e8e;
+}
+.title {
+	width: 50%;
+}
+.status_col {
+	width: 10%;
+}
+.more_operations {
+	width: 10%;
+}
+.recycle {
+	width: 10%;
+}
+.create_time {
+	width: 10%;
+}
+.url {
+	width: 10%;
+}

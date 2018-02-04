@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+}
+.left {
+	float: left;
+	width: 200px;
+	height: 500px;
+	border: 2px solid #8e8e8e;
+	margin-top: 100px;
+}
+.left p {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 22px;
+	border: 1px solid #8e8e8e;
+}
+.right {
+	float: left;
+	width: 1200px;
+	border: 2px solid #8e8e8e;
+	margin-top: 100px;
+}
+#title {
+	text-align: center;
+	font-size: 30px;
+}
+.jian {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #8e8e8e;
+	display: inline-block;
+}
+.jia {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #8e8e8e;
+	display: inline-block;
+}
