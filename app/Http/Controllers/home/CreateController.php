@@ -13,7 +13,7 @@
 			$time = $_SERVER['REQUEST_TIME'];
 			DB::beginTransaction();
 			try {
-				$id = DB::table('paper')->insertGetId(array('title'=>$all['title'],'create_time'=>$time));
+				$id = DB::table('paper')->insertGetId(array('title'=>$all['title'],'create_time'=>$time,'thinks_msg'=>$all['kai']));
 				if($id){
 					$data = [];
 					foreach ($all['tm'] as $key=>$value) {
