@@ -33,5 +33,7 @@ class IndexController extends Controller
     {
         return view('home.edit');
     }
-
+    public function mu(){
+        return view('home.mu');
+    }
 }

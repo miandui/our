@@ -25,7 +25,7 @@ Route::any('home/create/index','home\CreateController@index');
 Route::any('home/create/common','home\CommonController@ajaxReturn');
 Route::any('home/select/{id}/{can}','home\SelectController@index');
 Route::any('home/mine/index','home\MineController@index');
-
+Route::any('home/mu/index','home\IndexController@mu');
 
 
 
