@@ -15,5 +15,6 @@ class VerifyCsrfToken extends BaseVerifier
         'home/login',
         'home/oauth',
         'home/mu/index',
+        'home/create/index'
     ];
 }
