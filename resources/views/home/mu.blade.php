@@ -87,7 +87,7 @@
 
       <ul class="category_template" id="usage_type">
         <li class="category_title"><i class="ico ico_template"></i>场景分类</li>
-      <li class="category_item" data-template-id="8" data-template-type="usage"><a href="javascript:;"><span class="name">调查</span><span class="count">24</span></a></li><li class="category_item" data-template-id="9" data-template-type="usage"><a href="javascript:;"><span class="name">测试</span><span class="count">2</span></a></li><li class="category_item" data-template-id="11" data-template-type="usage"><a href="javascript:;"><span class="name">满意度</span><span class="count">10</span></a></li></ul>
+      <li class="category_item" data-template-id="8" data-template-type="usage"><a href="javascript:;"><span class="name diaocha">调查</span><span class="count">24</span></a></li><li class="category_item" data-template-id="9" data-template-type="usage"><a href="javascript:;"><span class="name">测试</span><span class="count">2</span></a></li><li class="category_item" data-template-id="11" data-template-type="usage"><a href="javascript:;"><span class="name">满意度</span><span class="count">10</span></a></li></ul>
 
       <ul class="category_template" id="trade_type">
         <li class="category_title"><i class="ico ico_industry"></i>行业分类</li>
@@ -159,7 +159,14 @@
 
 <script src="{{URL::asset('/js/main.js')}}"></script>
 <script type="text/javascript" src="{{URL::asset('/other/stats')}}" charset="UTF-8"></script>
+<script src="{{URL::asset('/js/md5.js')}}"></script>
+<script src="{{URL::asset('/js/sign_ajax.js')}}"></script>
+<script>
+$('.diaocha').click(function(){
+  sign_ajax('/home/common/check_sign',{data:1},'post',function(){
 
-
+})
+})
+</script>
 
 </body></html>

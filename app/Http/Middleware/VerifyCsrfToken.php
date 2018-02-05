@@ -13,6 +13,7 @@ class VerifyCsrfToken extends BaseVerifier
      */
     protected $except = [
         'home/login',
-        'home/oauth'
+        'home/oauth',
+        'home/mu/index',
     ];
 }
